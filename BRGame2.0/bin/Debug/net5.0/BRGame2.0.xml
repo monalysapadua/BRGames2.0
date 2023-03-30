@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BRGame2.0</name>
+    </assembly>
+    <members>
+        <member name="M:BRGame2._0.Controllers.NomesJogosController.Cadastrar(BRGame2._0.Models.NomeJogo)">
+            <summary>
+            Cadastra jogos na aplicação
+            </summary>
+            <param name="jogo">Nomes dos Jogos</param>
+            <returns>Dados dos jogos cadatrados</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.NomesJogosController.Listar">
+            <summary>
+            Lista Todos os Jogos Cadastrados
+            </summary>
+            <returns>Lista de Jogos</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.NomesJogosController.AlterarNomeJogo(System.Int32,BRGame2._0.Models.NomeJogo)">
+            <summary>
+            Altera os dados de um jogo
+            </summary>
+            <param name="idJogo">ID do jogo</param>
+            <param name="jogo">Todas as informações do jogo</param>
+            <returns>Jogo alterado</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.NomesJogosController.Deletar(System.Int32)">
+            <summary>
+            Exclui um usuário da aplicação
+            </summary>
+            <param name="idJogo">Id do Usuário</param>
+            <returns>Mensagem de Exclusão</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.UsuariosController.Cadastrar(BRGame2._0.Models.Usuario)">
+            <summary>
+            Cadastra Usuários na Aplicação
+            </summary>
+            <param name="usuario">Nomes dos usuários</param>
+            <returns>usuário cadastrado na aplicação</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.UsuariosController.Listar">
+            <summary>
+            Lista todos os usuários da aplicação
+            </summary>
+            <returns>Lista de usuários</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.UsuariosController.Alterar(System.Int32,BRGame2._0.Models.Usuario)">
+            <summary>
+            Altera os dados de um usuário
+            </summary>
+            <param name="id">Id do Usuário</param>
+            <param name="usuarioAlterado">Todas as informações do usuário</param>
+            <returns>Usuário alterado</returns>
+        </member>
+        <member name="M:BRGame2._0.Controllers.UsuariosController.Deletar(System.Int32)">
+            <summary>
+            Exclui um usuário da aplicação
+            </summary>
+            <param name="id">Dados do usuário</param>
+            <returns>Mensagem de exclusão</returns>
+        </member>
+    </members>
+</doc>
